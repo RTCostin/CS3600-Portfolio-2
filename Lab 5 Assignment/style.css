@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.hero {
+  min-height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('https://www.cdaresort.com/wp-content/uploads/2024/06/HEADER.jpg') center/cover no-repeat;
+}
+
+.page-banner {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('https://i.redd.it/34exdvsnptt21.jpg') center/cover no-repeat;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #0d6efd !important;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
